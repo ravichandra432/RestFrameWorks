@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[george.bluth@reqres.in]]>
+    </line>
+    <line>
+      <![CDATA[George]]>
+    </line>
+    <line>
+      <![CDATA[Janet]]>
+    </line>
+    <line>
+      <![CDATA[Emma]]>
+    </line>
+    <line>
+      <![CDATA[Eve]]>
+    </line>
+    <line>
+      <![CDATA[Charles]]>
+    </line>
+    <line>
+      <![CDATA[Tracey]]>
+    </line>
+    <line>
+      <![CDATA[user name is same]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6044" started-at="2020-02-29T13:46:43Z" finished-at="2020-02-29T13:46:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6044" started-at="2020-02-29T13:46:43Z" finished-at="2020-02-29T13:46:49Z">
+      <class name="com.webservices_Framework.tests.GetAllUsers">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.webservices_Framework.tests.GetAllUsers@61832929]" name="config" is-config="true" duration-ms="516" started-at="2020-02-29T19:16:42Z" finished-at="2020-02-29T19:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="getAllUsers()[pri:0, instance:com.webservices_Framework.tests.GetAllUsers@61832929]" name="getAllUsers" duration-ms="2665" started-at="2020-02-29T19:16:43Z" finished-at="2020-02-29T19:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="getSingleUser()[pri:0, instance:com.webservices_Framework.tests.GetAllUsers@61832929]" name="getSingleUser" duration-ms="651" started-at="2020-02-29T19:16:45Z" finished-at="2020-02-29T19:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+        <test-method status="PASS" signature="getUserMailId()[pri:0, instance:com.webservices_Framework.tests.GetAllUsers@61832929]" name="getUserMailId" duration-ms="1251" started-at="2020-02-29T19:16:46Z" finished-at="2020-02-29T19:16:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[george.bluth@reqres.in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUserMailId -->
+        <test-method status="PASS" signature="getUsersFirstName()[pri:0, instance:com.webservices_Framework.tests.GetAllUsers@61832929]" name="getUsersFirstName" duration-ms="1437" started-at="2020-02-29T19:16:47Z" finished-at="2020-02-29T19:16:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[George]]>
+            </line>
+            <line>
+              <![CDATA[Janet]]>
+            </line>
+            <line>
+              <![CDATA[Emma]]>
+            </line>
+            <line>
+              <![CDATA[Eve]]>
+            </line>
+            <line>
+              <![CDATA[Charles]]>
+            </line>
+            <line>
+              <![CDATA[Tracey]]>
+            </line>
+            <line>
+              <![CDATA[user name is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsersFirstName -->
+      </class> <!-- com.webservices_Framework.tests.GetAllUsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
